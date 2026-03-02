@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --body-color : #d9e0d5;
+    --bg-color : #2f3430;
+    --accent-color: #ffd23b;
+    --txt-color: #fecfcb;
+}
+
+body {
+    background-color: var(--body-color);
+}
