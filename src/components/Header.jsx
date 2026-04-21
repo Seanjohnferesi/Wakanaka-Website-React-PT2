@@ -14,8 +14,8 @@ function Header() {
                     <li>Home</li>
                     <li>Services</li>
                     <li>Gallery</li>
-                    <li><a href="http://" className="book-btn">Book</a></li>
                 </ul>
+                <button className="book-btn">Book</button>
             </nav>
         </header>
     )
