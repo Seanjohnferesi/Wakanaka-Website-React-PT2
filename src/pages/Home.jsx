@@ -1,8 +1,14 @@
+import HeroSection from "../components/HeroSection";
 import Header from "../components/Header";
+
 
 function Home() {
     return (
-        <Header/>
+        <>
+            <Header/>
+            <HeroSection/>
+        </>
+        
     )
 }
 

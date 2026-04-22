@@ -1,0 +1,55 @@
+/***** HERO SECTION CONTAINER *****/
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 650px;
+    background-color: var(--bg-color);
+}
+
+/***** SLOGAN *****/
+.slogan{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+.slogan h2{
+    color: var(--txt-color);
+    text-align: center;
+    font-size: 45px;
+}
+
+.slogan p{
+    color: var(--txt-color);
+    font-size: 25px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+/***** EXPLORE BUTTON *****/
+.explore-btn{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: var(--bg-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+/***** HERO IMAGE *****/
+.hero-image{
+    transform: translate(135px, -23px);
+    /* border: 1px solid white; */
+}
+
+.hero-image img {
+    width: 700px;
+    height: 700px;
+}
+
