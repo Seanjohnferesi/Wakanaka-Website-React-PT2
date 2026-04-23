@@ -1,0 +1,32 @@
+.services-container{
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: var(--bg-color);
+    margin: 50px 0;
+}
+
+/***** SERVICES TABS *****/
+.services{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/***** SERVICES TABS *****/
+.services-tab{
+    width: 500px;
+    height: 250px;
+    border-radius: 8px;
+    background-color: var(--bg-color);
+}
+
+.names{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: var(--txt-color);
+    font-size: 30px;
+    margin-top: 20px;
+}
