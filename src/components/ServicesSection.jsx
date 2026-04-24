@@ -23,6 +23,8 @@ function ServicesSection () {
                     <button>Explore</button>
                 </div>
             </div>
+
+            <div className="divider"></div>
         </section>
     )
 }

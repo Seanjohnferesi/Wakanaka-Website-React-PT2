@@ -1,14 +1,15 @@
 .services-container{
-    padding: 20px;
+    padding: 10px;
 }
 
-h1{
+.services-container h1{
     text-align: center;
     color: var(--bg-color);
     margin: 50px 0;
+    font-size: 40px;
 }
 
-/***** SERVICES TABS *****/
+/***** SERVICES CONTAINER *****/
 .services{
     display: flex;
     justify-content: space-evenly;
@@ -38,6 +39,8 @@ h1{
     font-size: 30px;
 }
 
+/***** BUTTONS *****/
+
 .services-tab button{
     border: none;
     padding: 13px 30px;
@@ -49,4 +52,14 @@ h1{
     background-color: var(--accent-color);
     box-shadow: 1px 1px 5px grey, -1px -1px 5px grey;
     cursor: pointer;
+}
+
+/***** DIVIDER *****/
+.divider{
+    margin: 0 auto;
+    margin-top: 250px;
+    width: 60%;
+    height: 6px;
+    border-radius: 3px;
+    background-color: var(--bg-color);
 }
