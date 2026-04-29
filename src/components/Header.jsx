@@ -1,7 +1,9 @@
 import "../styles/header.css";
 import webIcon from "../assets/icons/wakanaka-icon.png";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
+    const navigate = useNavigate()
     return(
         <header>
             <div className="web-icon">
@@ -12,7 +14,7 @@ function Header() {
             <nav>
                 <ul>
                     <li>Home</li>
-                    <li>Services</li>
+                    <li onClick={() => navigate("/services")}>Services</li>
                     <li>Gallery</li>
                 </ul>
                 <button className="book-btn">Book</button>
