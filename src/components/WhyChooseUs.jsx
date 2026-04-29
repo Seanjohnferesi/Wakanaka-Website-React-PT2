@@ -11,10 +11,10 @@ function WhyChooseUs () {
                     without the hassle of traveling.
                 </h2>
                 <button>Book</button>
-                <div className="delivery-container">
+                {/* <div className="delivery-container">
                     <img src={car} alt={car} />
                     <img src={house} alt={house} />
-                </div>
+                </div> */}
         </section>
     )
 }

@@ -5,7 +5,7 @@
 .services-container h1{
     text-align: center;
     color: var(--bg-color);
-    margin: 50px 0;
+    margin: 70px 0;
     font-size: 40px;
 }
 
@@ -13,6 +13,7 @@
 .services{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 80px;
 }
 
 /***** SERVICES TABS *****/

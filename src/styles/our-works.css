@@ -1,0 +1,20 @@
+.our-works{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.our-works-container h1 {
+    text-align: center;
+    color: var(--bg-color);
+    margin: 70px 0;
+    font-size: 40px;
+}
+
+.pics{
+    width: 400px;
+    height: 500px;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+}
