@@ -1,10 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import ServicePage from "../components/ServicesPage/ServicesPage";
 
 function Services () {
     return(
-        <section className="services-list">
-            
-        </section>
+        <>
+            <ServicePage />
+        </>
     )
 }
 
