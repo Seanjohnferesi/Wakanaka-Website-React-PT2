@@ -10,7 +10,7 @@ function App() {
         <AnimatePresence mode= "wait">
             <Routes location={location} key={location.pathname}>
                 <Route path="/" element= {<PageTransition> <Home/> </PageTransition>} />
-                <Route path="/home/services" element= {<PageTransition> <Services/> </PageTransition>} />
+                <Route path="/services" element= {<PageTransition> <Services/> </PageTransition>} />
             </Routes>
         </AnimatePresence>
     )
