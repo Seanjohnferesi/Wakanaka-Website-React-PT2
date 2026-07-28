@@ -19,7 +19,7 @@ function ServicesSection () {
 
                 <div className="services-tab">
                     <div className="add-on"></div>
-                    <h2 className="names">Add Ons</h2>
+                    <h2 className="names">Hair Removal</h2>
                     <button>Explore</button>
                 </div>
             </div>

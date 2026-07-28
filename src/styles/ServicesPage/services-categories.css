@@ -12,15 +12,49 @@
     padding-top: 30px
 }
 
-.category1,
-.category2,
-.category3{
+.category{
     width: 80%;
     height: 250px;
     background-color: var(--bg-color);
     border-radius: 8px;
     text-align: center;
     color: var(--txt-color);
-    font-size: 30px;
+    font-size: 24px;
     font-family: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0 
+}
+
+.open{
+    width: 70%;
+    height: auto;
+}
+
+ul li {
+    color: white;
+    list-style: none;
+    text-align: start;
+    margin-bottom: 8px;
+    font-weight: 600
+}
+
+/***** NAIL CARE LIST *****/
+.listItems{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 150px 0  30px;
+}
+
+/***** SPA LIST *****/
+.spa-heads{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 2px ;
+    text-align: left;
 }
