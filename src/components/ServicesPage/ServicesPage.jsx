@@ -12,83 +12,102 @@ function ServiceCategory (){
             <h1>Services</h1>
 
             <DropdownColumn title="Nail Care">
-                <ul>
-                    <li>Full Manicure</li>
-                    <li>Full Pedicure</li>
-                    <li>Mini Manicure</li>
-                    <li>Mini Pedicure</li>
-                    <li>Gel Application</li>
-                    <li>Gel Manicure</li>
-                    <li>Gel Pedicure</li>
-                    <li>Gel Soak Off</li>
-                    <li>Gel Overlay</li>
-                    <li>Soft Gel Tips</li>
-                    <li>Soft Gel Tips XL</li>
-                    <li>Builders Gel</li>
-                    <li>Refill</li>
-                    <li>Repair Per Nail</li>
-                    <li>Add On Footlogix Treatment</li>
-                </ul>
+                    <div className="services-and-prices">
+                        <ul>
+                            <li>Full Manicure</li>
+                            <li>Full Pedicure</li>
+                            <li>Mini Manicure</li>
+                            <li>Mini Pedicure</li>
+                            <li>Gel Application</li>
+                            <li>Gel Manicure</li>
+                            <li>Gel Pedicure</li>
+                            <li>Gel Soak Off</li>
+                            <li>Gel Overlay</li>
+                            <li>Soft Gel Tips</li>
+                            <li>Soft Gel Tips XL</li>
+                            <li>Builders Gel</li>
+                            <li>Refill</li>
+                            <li>Repair Per Nail</li>
+                            <li>Add On Footlogix Treatment</li>
+                        </ul>
 
-                <ul>
-                    <li>R350</li>
-                    <li>R400</li>
-                    <li>R230</li>
-                    <li>R250</li>
-                    <li>R350</li>
-                    <li>R400</li>
-                    <li>R500</li>
-                    <li>R100</li>
-                    <li>R600</li>
-                    <li>R500</li>
-                    <li>R550</li>
-                    <li>R600</li>
-                    <li>R300</li>
-                    <li>R50</li>
-                    <li>R200</li>
-                </ul>
+                        <ul>
+                            <li>R350</li>
+                            <li>R400</li>
+                            <li>R230</li>
+                            <li>R250</li>
+                            <li>R350</li>
+                            <li>R400</li>
+                            <li>R500</li>
+                            <li>R100</li>
+                            <li>R600</li>
+                            <li>R500</li>
+                            <li>R550</li>
+                            <li>R600</li>
+                            <li>R300</li>
+                            <li>R50</li>
+                            <li>R200</li>
+                        </ul>
+                    </div>
             </DropdownColumn>
      
             <DropdownColumn title="Spa Treatments">
-                <ul>
+                <div className="spa-treatments">
                     <p className="spa-heads">Massages</p>
-                    <li>30 Minutes Massage</li>
-                    <li>60 Minutes Massage</li>
-                    <li>90 Minutes Massage</li>
-                    <p className="add-on">Add-on From: </p>
 
-                    <br />
+                    <div className="services-and-prices">
+                        <ul>
+                            <li>30 Minutes Massage</li>
+                            <li>60 Minutes Massage</li>
+                            <li>90 Minutes Massage</li>
+                            <p className="add-on">Add-on From: </p>
+                        </ul>
 
+                        <ul>
+                            <li>R380</li>
+                            <li>R800</li>
+                            <li>R1100</li>
+                            <li>R100</li>
+                        </ul>
+                    </div>
+                    
                     <p className="spa-heads">Facials</p>
-                    <li>Guinot | 30 Minutes</li>
-                    <li>Guinot | 45 Minutes - 1 Hour</li>
 
-                    <br />
+                    <div className="services-and-prices">
+                        <ul>
+                            <li>Guinot | 30 Minutes</li>
+                            <li>Guinot | 45 Minutes - 1 Hour</li>
+                        </ul>
+
+                        <ul>
+                            <li>R550</li>
+                            <li>R800</li>
+                        </ul>
+                    </div>
 
                     <p className="spa-heads">Tinting</p>
-                    <li>Brow</li>
-                    <li>Lash</li>
-                </ul>
+                    <div className="services-and-prices">
+                        <ul>
+                            <li>Brow</li>
+                            <li>Lash</li>
+                        </ul>
 
-                <ul>
-                    <br />
-                    <li>R380</li>
-                    <li>R800</li>
-                    <li>R1100</li>
-                    <li>R100</li>
-
-                    <br />
+                        <ul>
+                            <li>R150</li>
+                            <li>R200</li>
+                        </ul>
+                    </div>
+                    
 
                     
-                </ul>
 
-                
+                </div>
             </DropdownColumn>
 
             <DropdownColumn title="Waxing">
                 <div className="waxing">
                 
-                    <div className="service-names">          
+                    <div className="services-and-prices">          
                         <ul>
                             <li>Brow, Lip, Or Chin</li>
                             <li>Ear Or Nose</li>
@@ -122,7 +141,7 @@ function ServiceCategory (){
 
                     <p className="spa-heads">Men</p>
 
-                    <div className="prices">
+                    <div className="services-and-prices">
                         
                         <ul>
                             <li>Chest Or Stomach</li>
