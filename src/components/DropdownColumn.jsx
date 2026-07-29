@@ -14,7 +14,7 @@ function DropdownColumn({title, children}) {
         >
             <h2>{title}</h2>
             {isVisible && (
-                <div className="listItems">
+                <div className="listItems"> 
                     {children}
                 </div>
             )}
