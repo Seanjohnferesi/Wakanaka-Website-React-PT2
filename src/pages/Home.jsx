@@ -7,7 +7,7 @@ import OurWorks from "../components/OurWorks";
 function Home() {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <HeroSection />
             <ServicesSection />
             <WhyChooseUs />
