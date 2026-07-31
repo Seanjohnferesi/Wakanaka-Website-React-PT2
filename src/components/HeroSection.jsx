@@ -7,7 +7,7 @@ function HeroSection () {
             <div className="slogan">
                 <h2>Expert Care in the <br/> Cormfort of Your Home</h2>
                 <p>A full studio experience dedicated to <br /> comfort, confidence, and natural beauty.</p>
-                <a href= "#services-container"><button className="explore-btn">Explore</button></a>
+                <a href= "#services-container" className="explore-btn">Explore</a>
             </div>
 
             <div className="hero-image">
