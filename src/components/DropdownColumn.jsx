@@ -2,7 +2,6 @@ import { useState } from "react";
 
 function DropdownColumn({title, children}) {
     const [isVisible, setIsVisible] = useState(false);
-
     const handleToggle = () => {
         setIsVisible(prev => !prev);
     }
