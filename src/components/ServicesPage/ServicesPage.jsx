@@ -2,11 +2,7 @@ import { useState } from "react"
 import "../../styles/ServicesPage/services-categories.css"
 import DropdownColumn from "../DropdownColumn"
 function ServiceCategory (){
-    const [isVisible, setIsVisible] = useState(false)
-    const handleToggle = () => {
-        setIsVisible(prev => !prev)
-    }
-
+  
     return(
         <section className="categories">
             <h1>Services</h1>
@@ -51,7 +47,7 @@ function ServiceCategory (){
                     </div>
             </DropdownColumn>
      
-            <DropdownColumn title="Spa Treatments">
+            <DropdownColumn title="Spa Treatments" >
                 <div className="spa-treatments">
                     <p className="spa-heads">Massages</p>
 
@@ -104,7 +100,7 @@ function ServiceCategory (){
                 </div>
             </DropdownColumn>
 
-            <DropdownColumn title="Waxing">
+            <DropdownColumn title="Waxing" >
                 <div className="waxing">
                 
                     <div className="services-and-prices">          
