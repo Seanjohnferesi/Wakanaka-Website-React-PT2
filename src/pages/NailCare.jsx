@@ -1,9 +1,10 @@
-import DropdownColumn from "../components/DropdownColumn";
+import "../styles/ServicesPage/separate-services-page.css"
 
 function NailCare() {
     return (
-        <DropdownColumn title="Nail Care">
-                    <div className="services-and-prices">
+        <section className="category-container">
+                    <h2>Nail Care</h2>
+                    <div className = "category-flex">
                         <ul>
                             <li>Full Manicure</li>
                             <li>Full Pedicure</li>
@@ -40,7 +41,7 @@ function NailCare() {
                             <li>R200</li>
                         </ul>
                     </div>
-            </DropdownColumn>
+            </section>
     )
 }
 
