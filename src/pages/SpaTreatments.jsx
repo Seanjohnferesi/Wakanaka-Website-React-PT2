@@ -2,11 +2,14 @@ import DropdownColumn from "../components/DropdownColumn";
 
 function SpaTreatments() {
     return(
-        <DropdownColumn title="Spa Treatments" >
-                <div className="spa-treatments">
-                    <p className="spa-heads">Massages</p>
+        <section className="category-container">
+            <h2>Spa Treatments</h2>
+            <div className="spa-treatments-container" >
+                
+                <div className="massage-container">
+                    <p className="spa-heads" >Massages</p>
 
-                    <div className="services-and-prices">
+                    <div className="services-and-prices" >
                         <ul>
                             <li>30 Minutes Massage</li>
                             <li>60 Minutes Massage</li>
@@ -21,8 +24,10 @@ function SpaTreatments() {
                             <li>R100</li>
                         </ul>
                     </div>
-                    
-                    <p className="spa-heads">Facials</p>
+                </div>
+                
+                <div className="facials-container">
+                    <p className="spa-heads" >Facials</p>
 
                     <div className="services-and-prices">
                         <ul>
@@ -35,7 +40,9 @@ function SpaTreatments() {
                             <li>R800</li>
                         </ul>
                     </div>
-
+                </div>
+                
+                <div className="tinting-container">
                     <p className="spa-heads">Tinting</p>
                     <div className="services-and-prices">
                         <ul>
@@ -48,12 +55,9 @@ function SpaTreatments() {
                             <li>R200</li>
                         </ul>
                     </div>
-                    
-
-                    
-
-                </div>
-            </DropdownColumn>
+                </div>                  
+            </div>
+        </section>
     )
 }
 
