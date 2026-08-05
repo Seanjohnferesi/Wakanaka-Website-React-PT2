@@ -18,7 +18,7 @@ function ServicesSection () {
                     </div>
                     <h2 className="names">Nail Care</h2>
                     <button
-                        onClick={() => navigate("/services")} 
+                        onClick={() => navigate("/nail-care")} 
                     >Explore</button>
                 </div>
                 
@@ -28,7 +28,7 @@ function ServicesSection () {
                     </div>
                     <h2 className="names">Spa Treatments</h2>
                     <button
-                        onClick={() => navigate("/services")}
+                        onClick={() => navigate("/spa-treatments")}
                     >Explore</button>
                 </div>
 
@@ -38,7 +38,7 @@ function ServicesSection () {
                     </div>
                     <h2 className="names">Hair Removal</h2>
                     <button
-                        onClick={() => navigate("/services")}
+                        onClick={() => navigate("/waxing")}
                     >Explore</button>
                 </div>
             </div>
