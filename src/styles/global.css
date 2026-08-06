@@ -15,7 +15,3 @@ body {
     font-family: 'Sora', Arial, Helvetica, sans-serif;
     /* padding-bottom: 10000px; */
 }
-
-html{
-    scroll-behavior: smooth;
-}

@@ -13,7 +13,10 @@ function Header() {
 
             <nav>
                 <ul>
-                    <li onClick={() => navigate("/")}>Home</li>
+                    <li onClick={() => {
+                        navigate("/");
+                        document.getElementById("hero-section").scrollIntoView({ behavior: "smooth", block: "start" });
+                    }}>Home</li>
                     <li onClick={() => navigate("/services")}>Services</li>
                     <li onClick={() => navigate("/gallery")}>Gallery</li>
                 </ul>
