@@ -27,6 +27,17 @@ function OurWorks () {
                     <div className="pics"><img src={pic8} alt="Work 8" /></div>
                     <div className="pics"><img src={pic9} alt="Work 9" /></div>
                     <div className="pics"><img src={pic10} alt="Work 10" /></div>
+            
+                    <div className="pics"><img src={pic1} alt="Work 1" /></div>
+                    <div className="pics"><img src={pic2} alt="Work 2" /></div>
+                    <div className="pics"><img src={pic3} alt="Work 3" /></div>
+                    <div className="pics"><img src={pic4} alt="Work 4" /></div>
+                    <div className="pics"><img src={pic5} alt="Work 5" /></div>
+                    <div className="pics"><img src={pic6} alt="Work 6" /></div>
+                    <div className="pics"><img src={pic7} alt="Work 7" /></div>
+                    <div className="pics"><img src={pic8} alt="Work 8" /></div>
+                    <div className="pics"><img src={pic9} alt="Work 9" /></div>
+                    <div className="pics"><img src={pic10} alt="Work 10" /></div>
                 </div>
             </div>
             

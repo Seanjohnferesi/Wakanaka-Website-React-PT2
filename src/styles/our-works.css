@@ -1,25 +1,15 @@
-.carousel{
-    /* border: 3px solid lightpink; */
+.carousel {
     width: 95%;
     margin: 0 auto;
-    overflow-x: auto;
-    scrollbar-width: none;
+    overflow: hidden; /* Changed from overflow-x: auto so users can't manually scroll it */
 }
 
-.carousel::-webkit-scrollbar {
-    display: none;
-}
-
-
-
-.group{
+.group {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
+    width: max-content; /* CRITICAL: Forces the div to be as wide as all images combined, preventing stacking */
     gap: 1rem;
-    animation: slide infinite 20s linear;
-
+    animation: slide infinite 50s linear;
 }
 
 .our-works-container h1 {
@@ -29,15 +19,15 @@
     font-size: 40px;
 }
 
-.pics{
-    flex: 0 0 400px;
+.pics {
+    flex-shrink: 0; /* CRITICAL: Stops the browser from squishing your 400px wide pictures */
     width: 400px;
     height: 500px;
     background-color: var(--bg-color);
     border-radius: 5px;
 }
 
-.pics img{
+.pics img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -45,9 +35,9 @@
 
 @keyframes slide {
     0% {
-        transform: translateX(0)
+        transform: translateX(0);
     }
-    100%{
-        transform: translateX(-100%)
+    100% {
+        transform: translateX(calc(-50% - 0.5rem)); /* Adjusts slightly for the gap separation */
     }
 }
