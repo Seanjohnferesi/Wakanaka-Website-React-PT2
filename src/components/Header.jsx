@@ -20,8 +20,9 @@ function Header() {
                     <li onClick={() => navigate("/services")}>Services</li>
                     <li onClick={() => navigate("/gallery")}>Gallery</li>
                 </ul>
-                {/* <button className="book-btn">Book</button> */}
-                <a href="https://wa.me/message/IEQ7TPG6URGHO1" className="book-btn" target="_blank">Enquire</a>
+                <button className="book-btn"
+                    onClick={() => window.location.href = "https://wa.me/message/IEQ7TPG6URGHO1"}
+                >Book</button>
             </nav>
         </header>
     )
