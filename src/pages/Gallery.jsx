@@ -13,8 +13,7 @@ import "../styles/gallery.css"
 function Gallery() {
     return(
         <div className="gallery-container">
-            <h1>Gallery</h1>
-            <p>Check out some of our work below!</p>
+
 
             <div className="pictures-container">
                 <img src= {pic1} alt="nail-care" />
