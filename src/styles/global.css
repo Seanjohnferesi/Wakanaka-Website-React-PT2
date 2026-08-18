@@ -13,10 +13,4 @@
 body {
     background-color: var(--body-color);
     font-family: 'Sora', Arial, Helvetica, sans-serif;
-    padding-bottom: 10000px;
-}
-
-[aria-hidden="true"], [aria-hidden] {
-  display: flex !important;
-  flex-wrap: wrap !important;
 }

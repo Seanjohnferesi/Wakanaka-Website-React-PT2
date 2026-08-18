@@ -23,18 +23,18 @@ function Waxing() {
                         </ul>
                         
                     <ul>
-                            <li>R100</li>
-                            <li>R130</li>
-                            <li>R300</li>
                             <li>R150</li>
+                            <li>R150</li>
+                            <li>R400</li>
                             <li>R200</li>
-                            <li>R280</li>
-                            <li>R120</li>
-                            <li>R280</li>
-                            <li>R320</li>
-                            <li>R360</li>
-                            <li>R240</li>
+                            <li>R300</li>
+                            <li>R450</li>
+                            <li>R150</li>
+                            <li>R400</li>
+                            <li>R500</li>
+                            <li>R600</li>
                             <li>R350</li>
+                            <li>R550</li>
                         </ul>
                     </div>
 
@@ -52,11 +52,11 @@ function Waxing() {
                             </ul>
                             
                             <ul>
-                                <li>R380</li>
-                                <li>R300</li>
+                                <li>R350</li>
                                 <li>R250</li>
-                                <li>R290</li>
-                                <li>R390</li>
+                                <li>R450</li>
+                                <li>R600</li>
+                                <li>R450</li>
                             </ul>
                         </div>
                     </div>

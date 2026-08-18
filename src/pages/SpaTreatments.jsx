@@ -18,7 +18,7 @@ function SpaTreatments() {
                         </ul>
 
                         <ul>
-                            <li>R380</li>
+                            <li>R450</li>
                             <li>R800</li>
                             <li>R1100</li>
                             <li>R100</li>

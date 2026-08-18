@@ -24,20 +24,20 @@ function NailCare() {
                         </ul>
 
                         <ul>
-                            <li>R350</li>
-                            <li>R400</li>
-                            <li>R230</li>
-                            <li>R250</li>
-                            <li>R350</li>
-                            <li>R400</li>
+                            <li>R450</li>
                             <li>R500</li>
-                            <li>R100</li>
-                            <li>R600</li>
-                            <li>R500</li>
-                            <li>R550</li>
-                            <li>R600</li>
                             <li>R300</li>
-                            <li>R50</li>
+                            <li>R350</li>
+                            <li>R450</li>
+                            <li>R550</li>
+                            <li>R630</li>
+                            <li>R150</li>
+                            <li>R600</li>
+                            <li>R650</li>
+                            <li>R770</li>
+                            <li>R600</li>
+                            <li>R400</li>
+                            <li>R80</li>
                             <li>R200</li>
                         </ul>
                     </div>
